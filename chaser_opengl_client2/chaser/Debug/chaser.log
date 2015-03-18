@@ -1,0 +1,70 @@
+﻿Build started 2015/3/18 0:33:41.
+     1>Project "C:\Users\Administrator\Documents\GitHub\Comp5900B\Comp5900B\chaser_opengl_client2\chaser\chaser.vcxproj" on node 2 (Build target(s)).
+     1>ClCompile:
+         D:\Microsoft Visual Studio 12.0\VC\bin\CL.exe /c /I..\GL\include /I"%EXAMPLES_HOME%\GL\include" /ZI /nologo /W3 /WX- /Od /Oy- /D _CRT_SECURE_NO_DEPRECATE /D _MBCS /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc120.pdb" /Gd /TP /analyze- /errorReport:prompt camera.cpp car.cpp chaser.cpp gameApp.cpp gameObject.cpp House.cpp main.cpp meshSurface.cpp Prey.cpp readFromTxt.cpp Shader.cpp ShadowChaser.cpp ShadowPrey.cpp SkyBox.cpp TargetHouse.cpp
+         TargetHouse.cpp
+         SkyBox.cpp
+         ShadowPrey.cpp
+     1>c:\users\administrator\documents\github\comp5900b\comp5900b\chaser_opengl_client2\chaser\shadowprey.cpp(12): warning C4244: '=' : conversion from 'time_t' to 'double', possible loss of data
+     1>c:\users\administrator\documents\github\comp5900b\comp5900b\chaser_opengl_client2\chaser\shadowprey.cpp(59): warning C4244: '=' : conversion from 'time_t' to 'double', possible loss of data
+     1>c:\users\administrator\documents\github\comp5900b\comp5900b\chaser_opengl_client2\chaser\shadowprey.cpp(64): warning C4060: switch statement contains no 'case' or 'default' labels
+         ShadowChaser.cpp
+     1>c:\users\administrator\documents\github\comp5900b\comp5900b\chaser_opengl_client2\chaser\shadowchaser.cpp(14): warning C4244: '=' : conversion from 'time_t' to 'double', possible loss of data
+     1>c:\users\administrator\documents\github\comp5900b\comp5900b\chaser_opengl_client2\chaser\shadowchaser.cpp(61): warning C4244: '=' : conversion from 'time_t' to 'double', possible loss of data
+     1>c:\users\administrator\documents\github\comp5900b\comp5900b\chaser_opengl_client2\chaser\shadowchaser.cpp(66): warning C4060: switch statement contains no 'case' or 'default' labels
+         Shader.cpp
+         readFromTxt.cpp
+         Prey.cpp
+     1>c:\users\administrator\documents\github\comp5900b\comp5900b\chaser_opengl_client2\chaser\prey.cpp(14): warning C4305: 'argument' : truncation from 'double' to 'float'
+         meshSurface.cpp
+         main.cpp
+         House.cpp
+         gameObject.cpp
+     1>c:\users\administrator\documents\github\comp5900b\comp5900b\chaser_opengl_client2\chaser\gameobject.cpp(47): warning C4244: '=' : conversion from 'time_t' to 'double', possible loss of data
+     1>c:\users\administrator\documents\github\comp5900b\comp5900b\chaser_opengl_client2\chaser\gameobject.cpp(329): warning C4244: '=' : conversion from 'time_t' to 'double', possible loss of data
+         gameApp.cpp
+     1>c:\users\administrator\documents\github\comp5900b\comp5900b\chaser_opengl_client2\chaser\gameapp.cpp(240): warning C4305: 'initializing' : truncation from 'double' to 'float'
+     1>c:\users\administrator\documents\github\comp5900b\comp5900b\chaser_opengl_client2\chaser\gameapp.cpp(255): warning C4551: function call missing argument list
+     1>c:\users\administrator\documents\github\comp5900b\comp5900b\chaser_opengl_client2\chaser\gameapp.cpp(503): warning C4305: 'argument' : truncation from 'double' to 'float'
+     1>c:\users\administrator\documents\github\comp5900b\comp5900b\chaser_opengl_client2\chaser\gameapp.cpp(505): warning C4305: 'argument' : truncation from 'double' to 'float'
+     1>c:\users\administrator\documents\github\comp5900b\comp5900b\chaser_opengl_client2\chaser\gameapp.cpp(512): warning C4305: 'argument' : truncation from 'double' to 'float'
+     1>c:\users\administrator\documents\github\comp5900b\comp5900b\chaser_opengl_client2\chaser\gameapp.cpp(513): warning C4305: 'argument' : truncation from 'double' to 'float'
+     1>c:\users\administrator\documents\github\comp5900b\comp5900b\chaser_opengl_client2\chaser\gameapp.cpp(525): warning C4305: 'argument' : truncation from 'double' to 'float'
+     1>c:\users\administrator\documents\github\comp5900b\comp5900b\chaser_opengl_client2\chaser\gameapp.cpp(526): warning C4244: 'argument' : conversion from 'int' to 'float', possible loss of data
+     1>c:\users\administrator\documents\github\comp5900b\comp5900b\chaser_opengl_client2\chaser\gameapp.cpp(561): warning C4305: 'argument' : truncation from 'double' to 'float'
+     1>c:\users\administrator\documents\github\comp5900b\comp5900b\chaser_opengl_client2\chaser\gameapp.cpp(851): warning C4018: '<' : signed/unsigned mismatch
+     1>c:\users\administrator\documents\github\comp5900b\comp5900b\chaser_opengl_client2\chaser\gameapp.cpp(864): warning C4018: '<' : signed/unsigned mismatch
+     1>c:\users\administrator\documents\github\comp5900b\comp5900b\chaser_opengl_client2\chaser\gameapp.cpp(889): warning C4018: '<' : signed/unsigned mismatch
+     1>c:\users\administrator\documents\github\comp5900b\comp5900b\chaser_opengl_client2\chaser\gameapp.cpp(908): warning C4018: '<' : signed/unsigned mismatch
+     1>c:\users\administrator\documents\github\comp5900b\comp5900b\chaser_opengl_client2\chaser\gameapp.cpp(956): warning C4018: '<' : signed/unsigned mismatch
+         chaser.cpp
+     1>c:\users\administrator\documents\github\comp5900b\comp5900b\chaser_opengl_client2\chaser\chaser.cpp(145): warning C4305: 'argument' : truncation from 'double' to 'float'
+     1>c:\users\administrator\documents\github\comp5900b\comp5900b\chaser_opengl_client2\chaser\chaser.cpp(172): warning C4305: 'argument' : truncation from 'double' to 'float'
+         car.cpp
+     1>c:\users\administrator\documents\github\comp5900b\comp5900b\chaser_opengl_client2\chaser\car.cpp(618): warning C4018: '<' : signed/unsigned mismatch
+     1>c:\users\administrator\documents\github\comp5900b\comp5900b\chaser_opengl_client2\chaser\car.cpp(613): warning C4101: 'scale' : unreferenced local variable
+         camera.cpp
+         Generating Code...
+       Link:
+         D:\Microsoft Visual Studio 12.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\Administrator\Documents\GitHub\Comp5900B\Comp5900B\chaser_opengl_client2\Debug\chaser.exe" /INCREMENTAL /NOLOGO /LIBPATH:..\GL\lib freeglut.lib glew32.lib glew32s.lib soil.lib ws2_32.lib odbc32.lib odbccp32.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:\Users\Administrator\Documents\GitHub\Comp5900B\Comp5900B\chaser_opengl_client2\Debug\chaser.pdb" /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Users\Administrator\Documents\GitHub\Comp5900B\Comp5900B\chaser_opengl_client2\Debug\chaser.lib" /MACHINE:X86 Debug\camera.obj
+         Debug\car.obj
+         Debug\chaser.obj
+         Debug\gameApp.obj
+         Debug\gameObject.obj
+         Debug\House.obj
+         Debug\main.obj
+         Debug\meshSurface.obj
+         Debug\Prey.obj
+         Debug\readFromTxt.obj
+         Debug\Shader.obj
+         Debug\ShadowChaser.obj
+         Debug\ShadowPrey.obj
+         Debug\SkyBox.obj
+         Debug\TargetHouse.obj
+     1>readFromTxt.obj : error LNK2005: _main already defined in main.obj
+     1>C:\Users\Administrator\Documents\GitHub\Comp5900B\Comp5900B\chaser_opengl_client2\Debug\chaser.exe : fatal error LNK1169: one or more multiply defined symbols found
+     1>Done Building Project "C:\Users\Administrator\Documents\GitHub\Comp5900B\Comp5900B\chaser_opengl_client2\chaser\chaser.vcxproj" (Build target(s)) -- FAILED.
+
+Build FAILED.
+
+Time Elapsed 00:00:14.68
