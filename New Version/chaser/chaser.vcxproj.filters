@@ -40,6 +40,9 @@
     <ClCompile Include="Truck.cpp">
       <Filter>source_files</Filter>
     </ClCompile>
+    <ClCompile Include="readFromTxt.cpp">
+      <Filter>source_files</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="SOIL.h">
@@ -79,6 +82,9 @@
       <Filter>header_files</Filter>
     </ClInclude>
     <ClInclude Include="Truck.h">
+      <Filter>header_files</Filter>
+    </ClInclude>
+    <ClInclude Include="readFromTxt.h">
       <Filter>header_files</Filter>
     </ClInclude>
   </ItemGroup>
