@@ -1,0 +1,13 @@
+: IP Address ?this is the port of the bootstrap host
+192.168.71.1
+: Port Number
+54091
+: Message delay in milliseconds
+300   
+: Role (1 - player, 2 - automatic chaser, 3 - manual chaser)
+: in this example it is a manual chaser
+3    
+: Maximum player speed (please document what values to use)
+100 	
+: Maximum chaser speed (please document what values to use)
+100	
